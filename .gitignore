@@ -1,0 +1,5 @@
+
+# RepoGhost
+.repoghost.local.json
+.repoghost/
+node_modules

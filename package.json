@@ -1,0 +1,40 @@
+{
+  "name": "ghost-in-the-repo",
+  "version": "1.0.0",
+  "description": "only watches, has eyes on code + logs, and reports (but can’t push commits)",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastyijan-fi/ghost-in-the-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastyijan-fi/ghost-in-the-repo/issues"
+  },
+  "homepage": "https://github.com/sebastyijan-fi/ghost-in-the-repo#readme",
+  "dependencies": {
+    "chokidar": "^5.0.0",
+    "commander": "^14.0.2",
+    "dotenv": "^17.2.3",
+    "execa": "^9.6.1",
+    "fs-extra": "^11.3.3",
+    "glob": "^13.0.0",
+    "openai": "^6.15.0",
+    "winston": "^3.19.0",
+    "zod": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/glob": "^8.1.0",
+    "@types/minimatch": "^5.1.2",
+    "@types/node": "^25.0.3",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.16"
+  }
+}
